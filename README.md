@@ -80,7 +80,7 @@ uvicorn main:app --host 0.0.0.0 --port 8000 --reload
 4. Alerts are sent to relevant municipal authorities.
 
 ### Flow Diagram
-<img src="https://github.com/user-attachments/assets/25f7fa26-dca7-40c8-9c93-2180731f21b4" alt="Garbage Detection System" width="1000" height="700"> 
+<img src="https://github.com/user-attachments/assets/25f7fa26-dca7-40c8-9c93-2180731f21b4" alt="Garbage Detection System" width="800" height="700"> 
 
 ## 🏗️ Methodology
 
