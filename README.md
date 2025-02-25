@@ -107,7 +107,7 @@ This research methodology involves utilizing **real-time images** captured from 
 - The developed model can detect real-time garbage.
 - If garbage is detected within the input images, an **automatic alert is sent to the relevant authorities** to ensure timely action.
 
-## 📊 Results and Discussion
+## 📊 Results
 
 ![chaud t1-p5-chaud-small](https://github.com/user-attachments/assets/30da2975-2c4e-40a5-95c2-b564e831dbae)
 
