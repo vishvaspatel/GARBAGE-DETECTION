@@ -15,6 +15,19 @@ The proposed work includes the generation of a **handcrafted dataset** containin
 - **Smart City Integration:** Supports real-time waste management solutions.
 - **Deep Learning Implementation:** Enhances detection accuracy through advanced AI models.
 
+## 📂 Dataset Collection and Preparation
+
+As per our study, **no suitable datasets** containing images of garbage piles were available. Hence, we created a **custom dataset** with manually gathered and annotated images. The dataset preparation process includes:
+
+- **1000 original images** collected from CCTV footage at different times of the day.
+- **Manual annotation** using the **LabelImg** tool.
+- **Data Augmentation Techniques** applied: Flip, Rotate (90°), Shear, Exposure, Blur, and Noise.
+- **Final dataset size:** 5000 images (1000 original + 4000 augmented images).
+
+### Sample Data
+![chaud2-p5-chaud-small](https://github.com/user-attachments/assets/32dc25c2-f1ba-41a6-9c76-d6068e0c61b6)
+![chaud1-p5-chaud-small](https://github.com/user-attachments/assets/b1073857-0ac3-4867-85b4-d39e62250c41)
+
 ## 🚀 Technologies Used
 
 ### 🧠 Machine Learning & AI
@@ -34,19 +47,6 @@ The proposed work includes the generation of a **handcrafted dataset** containin
 | React      | Frontend UI framework                      |
 | Flask      | High-performance web framework for APIs   |
 | SQL        | Database management for storing alerts and detections |
-
-## 📂 Dataset Collection and Preparation
-
-As per our study, **no suitable datasets** containing images of garbage piles were available. Hence, we created a **custom dataset** with manually gathered and annotated images. The dataset preparation process includes:
-
-- **1000 original images** collected from CCTV footage at different times of the day.
-- **Manual annotation** using the **LabelImg** tool.
-- **Data Augmentation Techniques** applied: Flip, Rotate (90°), Shear, Exposure, Blur, and Noise.
-- **Final dataset size:** 5000 images (1000 original + 4000 augmented images).
-
-### Sample Data
-![chaud2-p5-chaud-small](https://github.com/user-attachments/assets/32dc25c2-f1ba-41a6-9c76-d6068e0c61b6)
-![chaud1-p5-chaud-small](https://github.com/user-attachments/assets/b1073857-0ac3-4867-85b4-d39e62250c41)
 
 ## 🛠️ Local Development Setup
 
@@ -79,6 +79,14 @@ npm install
 npm start
 ```
 
+## 🌟 Features
+
+- **Real-time garbage detection using CCTV footage**
+- **Automated alert system for municipal authorities**
+- **AI-powered object detection with YOLO models**
+- **Web-based dashboard for monitoring detections**
+- **Historical data storage for trend analysis**
+  
 ## 🛠️ System Workflow
 
 1. CCTV footage is processed in real-time.
@@ -91,7 +99,7 @@ npm start
 
 ## 🏗️ Methodology
 
-### A. Proposed Approach
+### Proposed Approach
 
 This research methodology involves utilizing **real-time images** captured from CCTV cameras as input data. These images are employed to train deep learning models using **YOLOv5, YOLOv7, and YOLOv8**, which are well-known for their object detection capabilities.
 
@@ -109,14 +117,6 @@ This research methodology involves utilizing **real-time images** captured from 
 
 ### Notification Page
 ![WhatsApp Image 2025-02-25 at 3 38 02 PM](https://github.com/user-attachments/assets/a1a1fac8-c8b9-407c-8e3b-e72ac209a27f)
-
-## 🌟 Features
-
-- **Real-time garbage detection using CCTV footage**
-- **Automated alert system for municipal authorities**
-- **AI-powered object detection with YOLO models**
-- **Web-based dashboard for monitoring detections**
-- **Historical data storage for trend analysis**
 
 ## 📊 Results and Discussion
 
