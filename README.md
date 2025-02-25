@@ -32,21 +32,21 @@ Since no suitable public dataset containing images of garbage piles was availabl
 
 ### 🧠 Machine Learning & AI
 
-| Technology | Logo | Description |
-| ---------- | ---- | ----------- |
-| ![YOLO](https://upload.wikimedia.org/wikipedia/commons/8/80/YOLO_logo.png) | YOLO | Object detection using You Only Look Once (YOLO) v5, v7, v8 |
-| ![R-CNN](https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Deep_Learning_Icon.svg/512px-Deep_Learning_Icon.svg.png) | R-CNN | Advanced real-time object detection |
-| ![Deep Learning](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Deep_learning.svg/512px-Deep_learning.svg.png) | Deep Learning | Latest YOLO model for enhanced detection accuracy |
+| Technology | Description |
+| ---------- | --------------------------------------------------- |
+| YOLO       | Object detection using You Only Look Once (YOLO) v5, v7, v8 |
+| R-CNN      | Advanced real-time object detection                 |
+| Deep Learning | Latest YOLO model for enhanced detection accuracy   |
 
 ### 🌍 Web Technologies
 
-| Technology | Logo | Description |
-| ---------- | ---- | ----------------------------------------- |
-| ![OpenCV](https://upload.wikimedia.org/wikipedia/commons/3/32/OpenCV_Logo_with_text_svg_version.svg) | OpenCV | Image processing and video frame analysis |
-| ![Node.js](https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg) | Node.js | Backend development & AI model deployment |
-| ![React](https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg) | React | Frontend UI framework |
-| ![Flask](https://upload.wikimedia.org/wikipedia/commons/3/3c/Flask_logo.svg) | Flask | High-performance web framework for APIs |
-| ![SQL](https://upload.wikimedia.org/wikipedia/commons/8/87/Sql_data_base_with_logo.png) | SQL | Database management for storing alerts and detections |
+| Technology | Description |
+| ---------- | ----------------------------------------- |
+| OpenCV     | Image processing and video frame analysis |
+| Node.js    | Backend development & AI model deployment |
+| React      | Frontend UI framework                      |
+| Flask      | High-performance web framework for APIs   |
+| SQL        | Database management for storing alerts and detections |
 
 ## 🛠️ Local Development Setup
 
