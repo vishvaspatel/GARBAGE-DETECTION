@@ -1,6 +1,6 @@
 # Garbage Detection
 
-<img src="https://github.com/user-attachments/assets/b6393b94-2dd2-4057-b4d1-aaffe8845c74" alt="Garbage Detection System" width="1000">  
+<img src="https://github.com/user-attachments/assets/b6393b94-2dd2-4057-b4d1-aaffe8845c74" alt="Garbage Detection System" width="1000"> 
 
 ## 💥 Introduction
 
@@ -15,21 +15,25 @@ The proposed work includes the generation of a **handcrafted dataset** containin
 - **Smart City Integration:** Supports real-time waste management solutions.
 - **Deep Learning Implementation:** Enhances detection accuracy through advanced AI models.
 
-## 🚀 Technologies Used  
+## 🚀 Technologies Used
 
-### 🧠 Machine Learning & AI  
-| Technology | Description |
-|------------|-------------|
-| ![YOLOv5](https://img.shields.io/badge/YOLOv5-EB5B3C?style=for-the-badge&logo=yolo) | Object detection using You Only Look Once (YOLO) v5 |
-| ![YOLOv7](https://img.shields.io/badge/YOLOv7-252525?style=for-the-badge) | Advanced real-time object detection |
-| ![YOLOv8](https://img.shields.io/badge/YOLOv8-FF9900?style=for-the-badge) | Latest YOLO model for enhanced detection accuracy |
+### 🧠 Machine Learning & AI
 
-### 🌍 Web Technologies  
-| Technology | Description |
-|------------|-------------|
-| ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) | Backend development & AI model deployment |
-| ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white) | High-performance web framework for APIs |
-| ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv) | Image processing and video frame analysis |
+| Technology | Description                                         |
+| ---------- | --------------------------------------------------- |
+| YOLO       | Object detection using You Only Look Once (YOLO) v5, v7, v8 |
+| R-CNN      | Advanced real-time object detection                 |
+| Deep Learning | Latest YOLO model for enhanced detection accuracy   |
+
+### 🌍 Web Technologies
+
+| Technology | Description                               |
+| ---------- | ----------------------------------------- |
+| OpenCV     | Image processing and video frame analysis |
+| Node.js    | Backend development & AI model deployment |
+| React      | Frontend UI framework                      |
+| Flask      | High-performance web framework for APIs   |
+| SQL        | Database management for storing alerts and detections |
 
 ## 📂 Dataset Collection and Preparation
 
@@ -40,24 +44,25 @@ As per our study, **no suitable datasets** containing images of garbage piles we
 - **Data Augmentation Techniques** applied: Flip, Rotate (90°), Shear, Exposure, Blur, and Noise.
 - **Final dataset size:** 5000 images (1000 original + 4000 augmented images).
 
-<img src="IMAGE_URL_2" alt="Dataset Annotation Example" width="800">  
-
 ## 🛠️ Local Development Setup
 
 Ensure you have **Git, Python (3.8+), and pip** installed before proceeding.
 
 1️⃣ Clone the repository:
+
 ```sh
  git clone https://github.com/yourusername/Garbage-Detection.git
  cd Garbage-Detection
 ```
 
 2️⃣ Install dependencies:
+
 ```sh
 pip install -r requirements.txt
 ```
 
 3️⃣ Run the FastAPI server:
+
 ```sh
 uvicorn main:app --host 0.0.0.0 --port 8000 --reload
 ```
@@ -73,7 +78,7 @@ uvicorn main:app --host 0.0.0.0 --port 8000 --reload
 
 ### A. Proposed Approach
 
-This research methodology involves utilizing **real-time images** captured from CCTV cameras as input data. These images are employed to train deep learning models using **YOLOv5, YOLOv7, and YOLOv8**, which are well-known for their object detection capabilities. 
+This research methodology involves utilizing **real-time images** captured from CCTV cameras as input data. These images are employed to train deep learning models using **YOLOv5, YOLOv7, and YOLOv8**, which are well-known for their object detection capabilities.
 
 - The trained model's efficiency is evaluated using the train dataset.
 - The developed model can detect real-time garbage, as shown in Figure 4.
@@ -81,7 +86,7 @@ This research methodology involves utilizing **real-time images** captured from 
 
 ## 🎬 Video Demo
 
-_(Link to video showcasing garbage detection in action)_
+*(Link to video showcasing garbage detection in action)*
 
 ## 🚀 Future Enhancements
 
@@ -91,7 +96,6 @@ _(Link to video showcasing garbage detection in action)_
 
 ---
 
-📌 **Contributors:** Your Name, Team Members 
-📌 **License:** MIT License 
-📌 **Contact:** your.email@example.com
+📌 **Contributors:** Your Name, Team Members 📌 **License:** MIT License 📌 **Contact:** [your.email@example.com](mailto:your.email@example.com)
+
 
