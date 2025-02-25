@@ -87,18 +87,14 @@ This research methodology involves utilizing **real-time images** captured from 
 - The developed model can detect real-time garbage, as shown in Figure 4.
 - If garbage is detected within the input images, an **automatic alert is sent to the relevant authorities** to ensure timely action.
 
-## 🎬 Video Demo
+## 💻 Interface Design of the web portal 
 
-*(Link to video showcasing garbage detection in action)*
+### Login Page
+![WhatsApp Image 2025-02-25 at 3 37 37 PM](https://github.com/user-attachments/assets/db0b98cb-e5cf-4387-9c3f-48b51a83651a)
 
-## 🚀 Future Enhancements
+### Analysis Dashboard 
+![WhatsApp Image 2025-02-25 at 3 38 28 PM](https://github.com/user-attachments/assets/0ea751d6-dc32-4511-a4f1-965955a237e3)
 
-- **Integration with IoT devices** for real-time data collection.
-- **Deployment on cloud services** for large-scale implementation.
-- **Improvement in detection accuracy** with larger annotated datasets.
-
----
-
-📌 **Contributors:** Your Name, Team Members 📌 **License:** MIT License 📌 **Contact:** [your.email@example.com](mailto:your.email@example.com)
-
+### Notification Page
+![WhatsApp Image 2025-02-25 at 3 38 02 PM](https://github.com/user-attachments/assets/a1a1fac8-c8b9-407c-8e3b-e72ac209a27f)
 
