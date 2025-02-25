@@ -44,6 +44,11 @@ As per our study, **no suitable datasets** containing images of garbage piles we
 - **Data Augmentation Techniques** applied: Flip, Rotate (90°), Shear, Exposure, Blur, and Noise.
 - **Final dataset size:** 5000 images (1000 original + 4000 augmented images).
 
+### Sample Data
+![chaud2-p5-chaud-small](https://github.com/user-attachments/assets/32dc25c2-f1ba-41a6-9c76-d6068e0c61b6)
+![chaud1-p5-chaud-small](https://github.com/user-attachments/assets/b1073857-0ac3-4867-85b4-d39e62250c41)
+
+
 ## 🛠️ Local Development Setup
 
 Ensure you have **Git, Python (3.8+), and pip** installed before proceeding.
