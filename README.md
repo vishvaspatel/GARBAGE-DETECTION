@@ -35,6 +35,15 @@ The proposed work includes the generation of a **handcrafted dataset** containin
 | Flask      | High-performance web framework for APIs   |
 | SQL        | Database management for storing alerts and detections |
 
+## 🌟 Features
+
+- **Real-time Garbage Detection** using YOLO deep learning models.
+- **Automated Alert System** that notifies municipal authorities.
+- **Web Dashboard** for monitoring garbage locations and reports.
+- **CCTV Camera Integration** for real-time image processing.
+- **Data Augmentation** techniques to enhance model training.
+- **User Authentication** for secure access to the platform.
+
 ## 📂 Dataset Collection and Preparation
 
 As per our study, **no suitable datasets** containing images of garbage piles were available. Hence, we created a **custom dataset** with manually gathered and annotated images. The dataset preparation process includes:
@@ -47,7 +56,6 @@ As per our study, **no suitable datasets** containing images of garbage piles we
 ### Sample Data
 ![chaud2-p5-chaud-small](https://github.com/user-attachments/assets/32dc25c2-f1ba-41a6-9c76-d6068e0c61b6)
 ![chaud1-p5-chaud-small](https://github.com/user-attachments/assets/b1073857-0ac3-4867-85b4-d39e62250c41)
-
 
 ## 🛠️ Local Development Setup
 
@@ -72,6 +80,26 @@ pip install -r requirements.txt
 uvicorn main:app --host 0.0.0.0 --port 8000 --reload
 ```
 
+### React Frontend Setup
+
+1️⃣ Navigate to the frontend directory:
+
+```sh
+cd frontend
+```
+
+2️⃣ Install dependencies:
+
+```sh
+npm install
+```
+
+3️⃣ Start the React app:
+
+```sh
+npm start
+```
+
 ## 🛠️ System Workflow
 
 1. CCTV footage is processed in real-time.
@@ -92,7 +120,7 @@ This research methodology involves utilizing **real-time images** captured from 
 - The developed model can detect real-time garbage, as shown in Figure 4.
 - If garbage is detected within the input images, an **automatic alert is sent to the relevant authorities** to ensure timely action.
 
-## 💻 Interface Design of the web portal 
+## 💻 Interface Design of the Web Portal 
 
 ### Login Page
 ![WhatsApp Image 2025-02-25 at 3 37 37 PM](https://github.com/user-attachments/assets/db0b98cb-e5cf-4387-9c3f-48b51a83651a)
