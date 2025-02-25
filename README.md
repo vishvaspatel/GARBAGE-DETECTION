@@ -104,7 +104,7 @@ npm start
 This research methodology involves utilizing **real-time images** captured from CCTV cameras as input data. These images are employed to train deep learning models using **YOLOv5, YOLOv7, and YOLOv8**, which are well-known for their object detection capabilities.
 
 - The trained model's efficiency is evaluated using the train dataset.
-- The developed model can detect real-time garbage, as shown in Figure 4.
+- The developed model can detect real-time garbage.
 - If garbage is detected within the input images, an **automatic alert is sent to the relevant authorities** to ensure timely action.
 
 ## 💻 Interface Design of the web portal 
