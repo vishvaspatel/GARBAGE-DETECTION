@@ -1,6 +1,6 @@
 # Garbage Detection
 
-<img src="IMAGE_URL_1" alt="Garbage Detection System" width="1000">  
+<img src="https://github.com/user-attachments/assets/b6393b94-2dd2-4057-b4d1-aaffe8845c74" alt="Garbage Detection System" width="1000">  
 
 ## 💥 Introduction
 
