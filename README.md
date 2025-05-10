@@ -111,6 +111,11 @@ This research methodology involves utilizing **real-time images** captured from 
 
 ![chaud t1-p5-chaud-small](https://github.com/user-attachments/assets/30da2975-2c4e-40a5-95c2-b564e831dbae)
 
+## Android Application for Garbage Collector
+
+![image](https://github.com/user-attachments/assets/8be3eb30-fdaf-4aed-8219-e37eaac43308)
+
+
 ## 💻 Web Portal Interface
 
 ### Login Page
