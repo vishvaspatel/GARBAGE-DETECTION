@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Name -->
+    <string name="app_name">Garbage Detection</string>
+
+    <!-- Login -->
+    <string name="login">Login</string>
+    <string name="username_hint">Username</string>
+    <string name="password_hint">Password</string>
+    <string name="login_button">Login</string>
+
+    <!-- Fragments -->
+    <string name="history_title">Garbage Detection History</string>
+    <string name="verified_title">Verified Garbage Items</string>
+    <string name="delete_title">Delete Garbage Items</string>
+
+    <!-- Common -->
+    <string name="submit">Submit</string>
+    <string name="cancel">Cancel</string>
+    <string name="loading">Loading...</string>
+    <string name="error_occurred">An error occurred</string>
+</resources>
