@@ -48,6 +48,23 @@ Since no suitable public dataset containing images of garbage piles was availabl
 | Flask      | High-performance web framework for APIs   |
 | SQL        | Database management for storing alerts and detections |
 
+### 📱 Android Technologies
+
+| Technology | One‑line Purpose |
+| ---------- | ---------------- |
+| **Kotlin** | Modern, null‑safe language for Android |
+| **Jetpack Compose** | Declarative UI toolkit (no XML) |
+| **Material 3** | Ready‑made theming & components |
+| **Retrofit 2 + OkHttp** | Type‑safe REST client & HTTP stack |
+| **Coroutines + StateFlow** | Lightweight async & reactive state |
+| **ViewModel** | Lifecycle‑aware state holder |
+| **Navigation Compose** | Type‑safe in‑app navigation |
+| **Room** | SQLite abstraction & caching layer |
+| **Hilt** | Dependency injection made simple |
+| **TensorFlow Lite** (opt.) | On‑device ML inference |
+| **JUnit / AndroidX Test** | Unit & UI testing frameworks |
+
+
 ## 🛠️ Local Development Setup
 
 Ensure you have **Git, Python (3.8+), and pip** installed before proceeding.
